@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -13,10 +13,15 @@
 		".sass-cache",
 		"build"
 	],
+	"font_size": 16,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"All Autocomplete",
+		"ApplySyntax",
+		"BracketHighlighter",
+		"GitGutter",
 		"Vintage"
 	],
 	"remember_open_files": false,
@@ -24,7 +29,8 @@
 	[
 		80
 	],
-	"tab_size": 2,
+	"tab_size": 4,
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,

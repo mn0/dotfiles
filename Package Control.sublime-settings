@@ -2,6 +2,10 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"All Autocomplete",
+		"ApplySyntax",
+		"BracketHighlighter",
+		"GitGutter"
 	],
 	"installed_packages":
 	[

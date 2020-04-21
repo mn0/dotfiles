@@ -38,3 +38,34 @@ export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+
+# i put this here, permission for gems install, rails (i hope)
+export RBENV_ROOT=/usr/local/var/rbenv
+eval "$(rbenv init -)"
+
+
+
+# export PATH="/opt/anaconda3/bin:$PATH"  # commented out by conda initialize
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+## HOHO YOU CHEEKY FUCKER, remember you've got to use vim to open this file to edit
+export PATH="$PATH:/Users/matthew/code/mn0/flutter/bin"
+export PATH="$PATH:/Users/matthew/Library/Python/3.8/bin"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
